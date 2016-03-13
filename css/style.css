@@ -72,4 +72,5 @@ body{
 .footer .line li{
     list-style: none;
     float: left;
+    display: block;
 }
