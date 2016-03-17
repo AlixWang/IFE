@@ -1,0 +1,54 @@
+body,div,span,img{margin: 0;padding: 0;}
+
+img{
+    width:80px;
+    
+}
+body{
+    padding:20px;
+}
+
+
+#countainer,#logo,#intro,#per_pic{
+    border:1px solid #999;
+    padding: 20px;
+    background-color: #fff;
+}
+#countainer{
+    background-color: #eee;
+    
+   
+}
+
+#logo{
+    width: 200px;
+    float: left;
+    
+}
+#logo>span{
+    vertical-align: top;
+    padding: 20px;
+}
+
+#intro{
+  margin-right: 140px;
+  margin-left: 260px;
+}
+
+#per_pic{
+    width: 80px;
+    float: right;
+    text-align: center;
+    
+}
+
+#per_pic img{
+    margin-bottom: 20px;
+}
+#per_pic>img:last-child{
+    margin-bottom: 0px;
+}
+
+#clear{
+    clear: right;
+}

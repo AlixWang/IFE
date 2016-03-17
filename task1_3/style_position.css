@@ -1,0 +1,65 @@
+body,div,span,img{margin: 0;padding: 0;}
+
+img{
+    width:80px;
+    
+}
+body{
+    padding:20px;
+}
+
+
+#countainer,#logo,#intro,#per_pic{
+    border:1px solid #999;
+    padding: 20px;
+    background-color: #fff;
+}
+#countainer{
+    background-color: #eee;
+    position: relative;
+    
+   
+}
+
+#logo{
+    width: 200px;
+    
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+#logo>span{
+    vertical-align: top;
+    padding: 20px;
+}
+
+#intro{
+   
+    margin: 0 140px 0 260px;
+    height: 100%;
+    
+    
+}
+
+#per_pic{
+    width: 80px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#per_pic img{
+    margin-bottom: 20px;
+}
+#per_pic>img:last-child{
+    margin-bottom: 0px;
+}
+
+#clear{
+    position: relative;
+}

@@ -1,0 +1,125 @@
+body,img,div,a,p,span,ul,li,header,aside,article,section,form,table,h1,h2{margin: 0;padding: 0;}
+
+
+body{
+    font-size: 12px;
+    font-family: "Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    background-color: #ccc;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: #333333;
+    position:relative;
+}
+header img{
+    width: 200px;
+    height: 64px;
+    margin-top: -10px;
+    
+}
+header nav{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+article{
+    background-color: white;
+    width: 92%;
+    margin: 20px auto;
+    padding: 40px 20px;
+    box-shadow: 4px 4px 2px #666;
+}
+article:hover{
+    box-shadow: 6px 6px 2px #666;
+}
+
+article h1{
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom:20px;
+}
+article h2{
+    color: #5B5851;
+    margin: 15px 0;
+}
+
+article span{
+    color: #5B5851;
+    margin: 15px 15px 15px 0px;
+    font-size: 0.5rem;
+    
+}
+
+article p{
+    font-size: 1rem;
+    text-indent: 2rem;
+    line-height: 1.8rem;
+}
+.auther{
+    text-indent: 0;
+}
+article ul{
+    list-style: none;
+    font-size: 1rem;
+    margin: 20px;
+    
+}
+
+.article4>div{
+   border: 1px solid #333333; 
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+} 
+
+.article4 img{
+    width: 50%;
+}
+
+.article4>div>p{
+    display: inline-block;
+   text-align:center;
+   margin: 10px;
+   text-indent: 0rem;
+}
+
+.article3>table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.article3 ol li{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.article3  caption{
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+}
+.article3 td{
+ border: 1px solid #ccc;  
+ padding: 4px; 
+}
+
+.article3 thead{
+    background-color: #333;
+    font-weight: bold;
+}
+.article3 tfoot{
+    background-color: #ccc;
+    font-weight: bold;
+}
