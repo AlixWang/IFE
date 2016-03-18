@@ -75,6 +75,10 @@ article ul{
     
 }
 
+.article1 > img{
+    width:50%;
+}
+
 .article4>div{
    border: 1px solid #333333; 
   text-align: center;
